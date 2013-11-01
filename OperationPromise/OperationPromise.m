@@ -33,6 +33,7 @@
 
 // Parent <- op
 - (NSArray *)addDependencyOperation:(NSOperation *) operation {
+    NSAssert([operation isKindOfClass:[NSOperation class]], @"should be NSOperation");
     for (NSOperation *parentOperation in self.operations) {
         [operation addDependency:parentOperation];
     }
@@ -44,6 +45,7 @@
 - (NSArray *)addDependencyOperations:(NSArray *) operations {
     for (NSOperation *parentOperation in self.operations) {
         [operations enumerateObjectsUsingBlock:^(NSOperation *newOp, NSUInteger idx, BOOL *stop) {
+            NSAssert([newOp isKindOfClass:[NSOperation class]], @"should be NSOperation");
             [newOp addDependency:parentOperation];
         }];
     }
@@ -52,7 +54,7 @@
 }
 
 
-- (OperationPromise * (^)(NSOperation *))then {
+- (OperationPromise * (^)(id))then {
     return ^OperationPromise *(NSOperation *operation) {
         [self addDependencyOperation:operation];
         return self;

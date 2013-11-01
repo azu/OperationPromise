@@ -15,7 +15,7 @@
 
 @property(nonatomic, strong) NSOperationQueue *queue;
 
-@property(readonly) OperationPromise *(^then)(NSOperation *operation);
+@property(readonly) OperationPromise *(^then)(id operation);
 @property(readonly) OperationPromise *(^when)(NSArray *operations);
 @property(readonly) void (^start)(void);
 @end
