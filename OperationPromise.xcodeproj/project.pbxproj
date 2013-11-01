@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C127A7F86D52869657A5 /* libOperationPromise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CEF3B91A799BD8A8A8EC /* libOperationPromise.a */; };
+		17B5C37CE10854B16A5FBBAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CBD3D3CB8BD962345462 /* XCTest.framework */; };
+		17B5C39F753EB4D106E1DB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C871DC0A6BBAF54CA866 /* Foundation.framework */; };
+		17B5C5012E1274525464EAD3 /* XCTest+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6C7F6ADBD1F5CA1402C /* XCTest+Async.m */; };
+		17B5C6DBE5374E866C0C2CE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7EC85A4D6D8BA5D2BE0 /* UIKit.framework */; };
+		17B5C7C791912F9CA41865E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C869A4FBC68B0105EA4C /* InfoPlist.strings */; };
+		17B5C9185FFC8F3E1C69260B /* OperationPromiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C74034B24A76CDF6064E /* OperationPromiseTests.m */; };
+		17B5CC11716CB6407DFC0D5F /* OperationPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD4A00A597B01FF3F051 /* OperationPromise.m */; };
+		17B5CD3F5F951F7F64F4DAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C871DC0A6BBAF54CA866 /* Foundation.framework */; };
+		17B5CF973EFD4C40A51D0AAA /* OperationPromise.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17B5CB864F6A5B2B29B508F7 /* OperationPromise.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C666684E85FC0FD7100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C322B6568E66FF53248F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C48641C9432EC832E6EC;
+			remoteInfo = OperationPromise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17B5C175A9CD2765D5C96606 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17B5CF973EFD4C40A51D0AAA /* OperationPromise.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17B5C0772594DAB1F14830F8 /* OperationPromise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OperationPromise-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C0FB9AF725C8AB9F51DE /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C6C7F6ADBD1F5CA1402C /* XCTest+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+Async.m"; sourceTree = "<group>"; };
+		17B5C74034B24A76CDF6064E /* OperationPromiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationPromiseTests.m; sourceTree = "<group>"; };
+		17B5C7EC85A4D6D8BA5D2BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C871DC0A6BBAF54CA866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C99CB2383E8C5922461B /* OperationPromiseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OperationPromiseTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CB864F6A5B2B29B508F7 /* OperationPromise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationPromise.h; sourceTree = "<group>"; };
+		17B5CBD3D3CB8BD962345462 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5CCD39D770956EE217F85 /* XCTest+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+Async.h"; sourceTree = "<group>"; };
+		17B5CD4A00A597B01FF3F051 /* OperationPromise.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationPromise.m; sourceTree = "<group>"; };
+		17B5CEA923757F908C21F5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CEF3B91A799BD8A8A8EC /* libOperationPromise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOperationPromise.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CFCA83F277FD95C8D8B2 /* OperationPromiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationPromiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C34777F65D0473F25411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CD3F5F951F7F64F4DAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C633C990B194AC97698E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C37CE10854B16A5FBBAD /* XCTest.framework in Frameworks */,
+				17B5C39F753EB4D106E1DB0F /* Foundation.framework in Frameworks */,
+				17B5C6DBE5374E866C0C2CE7 /* UIKit.framework in Frameworks */,
+				17B5C127A7F86D52869657A5 /* libOperationPromise.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C0DC86D432C48BD2A7E9 /* OperationPromiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C46BA6873D52F55ED063 /* Supporting Files */,
+				17B5C74034B24A76CDF6064E /* OperationPromiseTests.m */,
+				17B5CDDBB61644C2334AF067 /* asyncLib */,
+			);
+			path = OperationPromiseTests;
+			sourceTree = "<group>";
+		};
+		17B5C3DFD8978165FA508F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C0772594DAB1F14830F8 /* OperationPromise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C46BA6873D52F55ED063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C99CB2383E8C5922461B /* OperationPromiseTests-Info.plist */,
+				17B5C869A4FBC68B0105EA4C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C88F6E7CAD05D48045EB = {
+			isa = PBXGroup;
+			children = (
+				17B5CA9BFEDA016C568B4775 /* Products */,
+				17B5CBE3AFD8BE061118E6DC /* Frameworks */,
+				17B5CD7C5E01F98A63C4D628 /* OperationPromise */,
+				17B5C0DC86D432C48BD2A7E9 /* OperationPromiseTests */,
+				17B5C0FB9AF725C8AB9F51DE /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5CA9BFEDA016C568B4775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CEF3B91A799BD8A8A8EC /* libOperationPromise.a */,
+				17B5CFCA83F277FD95C8D8B2 /* OperationPromiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CBE3AFD8BE061118E6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C871DC0A6BBAF54CA866 /* Foundation.framework */,
+				17B5CBD3D3CB8BD962345462 /* XCTest.framework */,
+				17B5C7EC85A4D6D8BA5D2BE0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CD7C5E01F98A63C4D628 /* OperationPromise */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C3DFD8978165FA508F42 /* Supporting Files */,
+				17B5CB864F6A5B2B29B508F7 /* OperationPromise.h */,
+				17B5CD4A00A597B01FF3F051 /* OperationPromise.m */,
+			);
+			path = OperationPromise;
+			sourceTree = "<group>";
+		};
+		17B5CDDBB61644C2334AF067 /* asyncLib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CCD39D770956EE217F85 /* XCTest+Async.h */,
+				17B5C6C7F6ADBD1F5CA1402C /* XCTest+Async.m */,
+			);
+			path = asyncLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C48641C9432EC832E6EC /* OperationPromise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C1A4A815FA5237D841BD /* Build configuration list for PBXNativeTarget "OperationPromise" */;
+			buildPhases = (
+				17B5C1DC58095459D616DB00 /* Sources */,
+				17B5C34777F65D0473F25411 /* Frameworks */,
+				17B5C175A9CD2765D5C96606 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OperationPromise;
+			productName = OperationPromise;
+			productReference = 17B5CEF3B91A799BD8A8A8EC /* libOperationPromise.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		17B5C8373D2F35F1B61A2719 /* OperationPromiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C94B0FD192B192E5FD0D /* Build configuration list for PBXNativeTarget "OperationPromiseTests" */;
+			buildPhases = (
+				17B5C6E471B4F2C2092EA25C /* Sources */,
+				17B5C633C990B194AC97698E /* Frameworks */,
+				17B5C71E36B946CA402F9014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C83278A22790B55E1972 /* PBXTargetDependency */,
+			);
+			name = OperationPromiseTests;
+			productName = OperationPromiseTests;
+			productReference = 17B5CFCA83F277FD95C8D8B2 /* OperationPromiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C322B6568E66FF53248F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C24D7D534C3EC7D4A6FD /* Build configuration list for PBXProject "OperationPromise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C88F6E7CAD05D48045EB;
+			productRefGroup = 17B5CA9BFEDA016C568B4775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C48641C9432EC832E6EC /* OperationPromise */,
+				17B5C8373D2F35F1B61A2719 /* OperationPromiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C71E36B946CA402F9014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C7C791912F9CA41865E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C1DC58095459D616DB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CC11716CB6407DFC0D5F /* OperationPromise.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C6E471B4F2C2092EA25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C9185FFC8F3E1C69260B /* OperationPromiseTests.m in Sources */,
+				17B5C5012E1274525464EAD3 /* XCTest+Async.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C83278A22790B55E1972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C48641C9432EC832E6EC /* OperationPromise */;
+			targetProxy = 17B5C666684E85FC0FD7100B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C869A4FBC68B0105EA4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CEA923757F908C21F5A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C1492DDD6B90B4F66AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OperationPromise.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OperationPromise/OperationPromise-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17B5C196828615829571B01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OperationPromise/OperationPromise-Prefix.pch";
+				INFOPLIST_FILE = "OperationPromiseTests/OperationPromiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5C5E0AF5766B63DCB42E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OperationPromise/OperationPromise-Prefix.pch";
+				INFOPLIST_FILE = "OperationPromiseTests/OperationPromiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17B5C78743C5BB5FC86E566F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5C7E0DABAADF7E17841F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OperationPromise.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OperationPromise/OperationPromise-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17B5C8D79AB574E8A9931130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C1A4A815FA5237D841BD /* Build configuration list for PBXNativeTarget "OperationPromise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C7E0DABAADF7E17841F3 /* Release */,
+				17B5C1492DDD6B90B4F66AD9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C24D7D534C3EC7D4A6FD /* Build configuration list for PBXProject "OperationPromise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C8D79AB574E8A9931130 /* Release */,
+				17B5C78743C5BB5FC86E566F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C94B0FD192B192E5FD0D /* Build configuration list for PBXNativeTarget "OperationPromiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C196828615829571B01B /* Release */,
+				17B5C5E0AF5766B63DCB42E6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C322B6568E66FF53248F /* Project object */;
+}
