@@ -5,7 +5,7 @@ NSOperation(NSOperationQueue) dependency manager library.
 ## Installation
 
 ```ruby
-pod 'OperationPromise',
+pod 'OperationPromise', :git =>'https://github.com/azu/OperationPromise.git'
 ```
 
 ## Usage
