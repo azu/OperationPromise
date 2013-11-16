@@ -68,7 +68,7 @@
     };
 }
 
-- (void (^)())start {
+- (void (^)(void))start {
     return ^{
         NSAssert(self.queue != nil, @"should set queue: + (instancetype)promise:(NSOperationQueue *) queue;");
         [self.queue addOperations:self.operations waitUntilFinished:NO];
